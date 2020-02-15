@@ -1,16 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-    <h1>My Test Gulp</h1>
-    <p id="test">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"-Jade Underwood</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Insta News</title>
+    <link rel="stylesheet" href="./build/css/style.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body-background">
+  
+    <header class="header-container">
+      <div class="header-logo">
+        <img src="assets/images/nyt-logo.svg" alt="logo" />
+      </div>
+
+      <label>
+        Choose a section:
+        <select id="sections" class="categories" name="categories">
+          <option value="">Sections</option>
+          <option value="home">Home</option>
+          <option value="arts">Arts</option>
+          <option value="business">Business</option>
+          <option value="sports">Sports</option>
+          <option value="technology">Technology</option>
+          <option value="fashion">Fashion</option>
+        </select>
+      </label>
+    </header>
+
+    <ul id="result"></ul>
+
+    <!-- 
+        
+     <li class="news-image">
+        <a href="http://google.ca" target="_blank"> 
+            <div class="text-background" style="background-image: url( 'http://google.ca/pic.jpg' )">
+                <p class="article-text"> Organic sriracha street art af seitan freegan neutra small batch glossier man bun
+                raclette bushwick. YOLO taiyaki next level, chia kale chips chartreuse whatever semiotics.
+                </p>
+            </div>
+        </a>
+    </li>
     
+
+
+       
+       <a href=""> <li class="news-image-2 news-image">
+             <div class= "text-background">
+            <p class="article-text"> Organic sriracha street art af seitan freegan neutra small batch glossier man bun
+                raclette bushwick. YOLO taiyaki next level, chia kale chips chartreuse whatever semiotics.</p>
+        </div>
+    </li>
+</a>
+-->
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <p class="footer-copyright">@Copyright 2020 INSTA NEWS</p>
+      </div>
+    </footer>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/scripts.js"></script>
-</body>
+  </body>
 </html>

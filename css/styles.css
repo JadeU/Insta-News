@@ -1,48 +1,203 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+
+.header-container{
+		position: relative;
+		background: black;
+		height: 250px;
+		width: 100%;
+	  }
+	  
+
+.header-logo img {
+		width: 20px;
+		max-width: 100%;
+	  }
+
+
+.ul-container {
+		font-style: normal;
+		font-size: 1.563rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	  }
+
+
+.news-image-1{
+background: url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-position: center, bottom center, center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-content: center;
+  margin: auto;
+  height: 75vw;
+  width: 100%;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+
+
+.news-image-2{
+background: url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-position: center, bottom center, center;
+  background-repeat: no-repeat;
+  height: 75vw;
+  width: 100%;
+  margin: auto;
+  
 }
-body {
-	line-height: 1;
+
+
+
+.news-image-3{
+background: url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-position: center, bottom center, center;
+  background-repeat: no-repeat;
+  height: 75vw;
+  width: 100%;
+  margin: auto;
+  
 }
-ol, ul {
-	list-style: none;
+
+
+
+.news-image-4{
+background: url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-position: center, bottom center, center;
+  background-repeat: no-repeat;
+  height: 75vw;
+  width: 100%;
+  margin: auto;
+
 }
-blockquote, q {
-	quotes: none;
+
+
+.news-image-5{
+background: url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-position: center, bottom center, center;
+  background-repeat: no-repeat;
+  height: 75vw;
+  width: 100%;
+  margin: auto;
+  
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+.news-image-6{
+background: url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-position: center, bottom center, center;
+  background-repeat: no-repeat;
+  height: 75vw;
+  width: 100%;
+
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+
+.news-image-7{
+background: url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-position: center, bottom center, center;
+  background-repeat: no-repeat;
+  height: 75vw;
+  width: 100%;
+  
+}
+
+
+
+.news-image-8{
+background: url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-position: center, bottom center, center;
+  background-repeat: no-repeat;
+  height: 75vw;
+  width: 100%;
+  margin: auto;
+  
+}
+
+
+
+.news-image-9{
+background: url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-position: center, bottom center, center;
+  background-repeat: no-repeat;
+  height: 75vw;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column; 
+ 
+}
+
+
+
+.news-image-10{
+background: url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-position: center, bottom center, center;
+  background-repeat: no-repeat;
+  height: 75vw;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column; 
+}
+
+
+
+.news-image-11{
+background: url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-position: center, bottom center, center;
+  background-repeat: no-repeat;
+  height: 75vw;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column; 
+  
+}
+
+
+.news-image-12{
+background: url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-position: center, bottom center, center;
+  background-repeat: no-repeat;
+  height: 75vw;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column; 
+}
+
+
+.article-text {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	padding-top: 200px;
+
+
+} 
+
+.site-footer{
+	height: 20vw;
+	width: 100%;
+	color: black;
+}
+
+.footer-copyright{
+	margin-left: 7rem;
+	padding-top: 2rem;
+	color: black;
 }
