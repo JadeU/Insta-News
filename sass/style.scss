@@ -5,8 +5,10 @@ $desktop-width: 1025px;
 @import "mixins";
 @import "grid";
 
-body {
+body,
+article-text {
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .body-background {

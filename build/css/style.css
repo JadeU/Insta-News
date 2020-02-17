@@ -145,8 +145,10 @@ table {
     }
 }
 */
-body {
-  color: white; }
+body,
+article-text {
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
 
 .body-background {
   background-color: black;
