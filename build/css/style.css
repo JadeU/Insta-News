@@ -91,60 +91,6 @@ table {
     .article-text {
       padding-top: 250px; } }
 
-/* original style Flex */
-/*
-#result {
-    font-style: normal;
-    font-size: 1.563rem;
-    text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    .news-image {
-        background-size: cover;
-        background-position: center, bottom center, center;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        height: 60vw;
-        width: 100%;
-        margin: auto;
-        
-        @include tablet {
-            height: 33.33vw;
-            width: 33.33%;
-            display: flex;
-            flex-wrap: wrap;
-            align-content: flex-start;
-            background: white;
-        }
-        
-        @include desktop {
-            height: 25vw;
-            width: 25%;
-            background: green;
-        }
-    }
-}
-
-.article-text {
-    color: #ffffff;
-    padding: 1rem;
-    line-height: 1.5;
-    font-size: 16px;
-    background:rgba(0,0,0,.6);
-    
-    @include tablet{
-        padding-top: 6rem;
-    }
-    
-    @include desktop{
-        padding-top: 250px;
-    }
-}
-*/
 body,
 article-text {
   color: white;
@@ -156,6 +102,10 @@ article-text {
   justify-content: space-between;
   flex-direction: column;
   height: 100vh; }
+
+img {
+  width: 50px;
+  height: 50px; }
 
 .header-container {
   position: relative;
@@ -212,6 +162,6 @@ article-text {
 
 .footer-copyright {
   padding-top: 2rem;
-  color: lightgrey;
+  color: #c2c2c2;
   font-size: 16px;
   text-align: center; }

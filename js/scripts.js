@@ -2,10 +2,8 @@
 const sections = document.getElementById('sections');
 let newsImagesList = document.createElement('ul');
 let newsImage = document.createElement('li');
-// let $results = $('#result');
 let results = document.getElementById('result');
-// let articleLink = document.createElement('a');
-// const articleImages = $('.article-images')
+
 
 sections.addEventListener('change', function (event) {
     let category = event.target.value;
@@ -21,19 +19,16 @@ sections.addEventListener('change', function (event) {
                 .ajaxStart(function () {
                      $loading.show();
             })
-            .ajaxStop(function () {
+            .ajaxStop(function (results) {
                       
             $loading.hide();
             });
         
-         $( ".trigger" ).click(function() {
-            $( ".result" ).load( "index.html" );
-         });
     })
         .done(function (data) {
             console.log(data);
 
-            // $results.html('');
+         
             results.innerHTML = '';
             //filter out articles without an image 
             //limit to 12 articles 
@@ -41,13 +36,13 @@ sections.addEventListener('change', function (event) {
                 .filter(item => item.multimedia !== null)
                 .slice(0, 12);
 
-            // let sectionSelected = 0;
+           
             console.log(articleImages);
 
             articleImages.forEach(item => {
                 console.log("forEach");
                 const li = document.createElement('li');
-                // li.setAttribute('class', 'news-image');
+            
 
                 const background = document.createElement('div');
                 background.setAttribute('class', 'news-image'); // text-background
@@ -58,10 +53,7 @@ sections.addEventListener('change', function (event) {
                 paragraph.innerText = item.abstract;
                 background.append(paragraph);
 
-                //     `<a href="${item.url}" target="_blank">
-                //     <li class= "news-image" style = "background-image: url(${item.multimedia[0].url})" >
-                // <p class="article-text">${item.abstract}</p></li>
-                // </a>`  
+                
                 const link = document.createElement('a');
                 link.setAttribute('href', item.url);
                 link.setAttribute('target', '_blank');
