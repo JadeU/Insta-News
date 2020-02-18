@@ -13,16 +13,16 @@ sections.addEventListener('change', function (event) {
         url: `https://api.nytimes.com/svc/topstories/v2/${category}.json?api-key=GFGAWNJfATntrZDFmzaGBZ8ArViC8R26`
 
 
-        let $loading = $('#loading').hide();
+        // let $loading = $('#loading').hide();
                    
-            $(document)
-                .ajaxStart(function () {
-                     $loading.show();
-            })
-            .ajaxStop(function (results) {
+        //     $(document)
+        //         .ajaxStart(function () {
+        //              $loading.show();
+        //     })
+        //     .ajaxStop(function (results) {
                       
-            $loading.hide();
-            });
+        //     $loading.hide();
+        //     });
         
     })
         .done(function (data) {
