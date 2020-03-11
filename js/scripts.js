@@ -26,26 +26,25 @@ sections.addEventListener('change', function (event) {
         
     })
         .done(function (data) {
-            console.log(data);
+           
 
          
             results.innerHTML = '';
-            //filter out articles without an image 
-            //limit to 12 articles 
+           
             const articleImages = data.results
                 .filter(item => item.multimedia !== null)
                 .slice(0, 12);
 
            
-            console.log(articleImages);
+            
 
             articleImages.forEach(item => {
-                console.log("forEach");
+              
                 const li = document.createElement('li');
             
 
                 const background = document.createElement('div');
-                background.setAttribute('class', 'news-image'); // text-background
+                background.setAttribute('class', 'news-image'); 
                 background.setAttribute('style', `background-image: url(${item.multimedia[0].url})`);
 
                 const paragraph = document.createElement('p');

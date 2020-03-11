@@ -19,11 +19,6 @@ article-text {
   height: 100vh;
 }
 
-// img {
-//   width: 50px;
-//   height: 50px;
-// }
-
 .header-container {
   position: relative;
   display: flex;
@@ -60,7 +55,6 @@ article-text {
 .header-logo {
   img {
     height: 200px;
-    // max-width: 100%;
     padding-bottom: 50px;
 
     @include tablet {
@@ -96,75 +90,3 @@ article-text {
   font-size: 16px;
   text-align: center;
 }
-
-// .footer-container{
-//     position: absolute;
-//     width: 100%;
-//     transform: translateY(100px);
-// }
-//Above is for mobile
-
-//Breakpoints
-
-//Below is for tablet
-
-// @media screen and (min-width: 600px){
-
-// .header-container{
-//     height: 500px;
-//     display: flex;
-//     align-content: flex-start;
-//     flex-direction: row;
-//   }
-
-// .header-container label{
-
-//   }
-
-// .header-logo img {
-//         height:200px;
-//   }
-
-// .ul-container {
-//     display: flex;
-//     flex-wrap: wrap;
-//     align-content: flex-start;
-// }
-
-// .article-text {
-//     padding-top: 6rem;
-// }
-
-// .site-footer {
-//     height: 200px;
-// }
-
-// .footer-copyright{
-//     text-align: center;
-//     // margin-top: 2rem;
-// }
-
-// }end of tablet
-
-//Below is for Desktop
-
-// .header-container{
-//     height: 150px;
-//     display:flex;
-//     flex-direction: row;
-//     justify-content:flex-start;
-//   }
-
-// .article-text {
-//     padding-top: 250px;
-// }
-
-// .site-footer {
-
-//   }
-
-// .footer-copyright{
-//     text-align: center;
-// }
-
-//end of desktop

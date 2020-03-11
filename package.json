@@ -1,13 +1,13 @@
 {
   "name": "insta-news",
   "version": "1.0.0",
-  "description": "\"Insta New\"",
+  "description": "Insta News is a single page, responsive website that allows a user to filter top news story categories via the New York Times API",
   "main": "index.js",
   "scripts": {
     "mygit": "git status; git add -A; git status;",
     "test": "ls -l"
   },
-  "author": "\"Jade\",",
+  "author": "Jade Underwood",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
@@ -19,6 +19,10 @@
     "gulp-sass": "^4.0.2",
     "gulp-terser": "^1.2.0",
     "pretty-error": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JadeU/Insta-News"
   },
   "dependencies": {
     "gulp-eslint": "^6.0.0"
